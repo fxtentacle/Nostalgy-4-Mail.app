@@ -37,7 +37,7 @@
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* Nostalgy4MailApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nostalgy4MailApp_Prefix.pch; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Nostalgy4MailApp.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nostalgy4MailApp.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5B49B7048680CD000E48DA /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Info.plist; sourceTree = "<group>"; };
 		C48D801F0FD1ACE00072A78D /* SearchPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchPopup.xib; sourceTree = "<group>"; };
 		C48D80210FD1AD420072A78D /* SearchPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPopup.h; sourceTree = "<group>"; };
 		C48D80220FD1AD420072A78D /* SearchPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPopup.m; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B7048680CD000E48DA /* Info.plist */,
+				C4C78045106B8CA700F5271F /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -212,6 +212,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		C4C78045106B8CA700F5271F /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* English */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -219,6 +227,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -226,13 +235,11 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Nostalgy4MailApp_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = English.lproj/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-undefined",
-					dynamic_lookup,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Nostalgy4MailApp;
+				SDKROOT = "";
 				USER_HEADER_SEARCH_PATHS = ../includes;
 				WRAPPER_EXTENSION = mailbundle;
 			};
@@ -246,10 +253,12 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Nostalgy4MailApp_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = English.lproj/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Nostalgy4MailApp;
-				WRAPPER_EXTENSION = bundle;
+				USER_HEADER_SEARCH_PATHS = ../includes;
+				WRAPPER_EXTENSION = mailbundle;
 			};
 			name = Release;
 		};
@@ -270,7 +279,7 @@
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;

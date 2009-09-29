@@ -1,7 +1,9 @@
 // !$*UTF8*$!
 {
 	089C1669FE841209C02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = macosx10.6;
 		activeTarget = 8D5B49AC048680CD000E48DA /* Nostalgy4MailApp */;
 		addToTargets = (
 			8D5B49AC048680CD000E48DA /* Nostalgy4MailApp */,
@@ -41,7 +43,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1153,
+					1393,
 					20,
 					48,
 					43,
@@ -63,7 +65,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1113,
+					1353,
 					60,
 					20,
 					48,
@@ -80,12 +82,24 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 265410795;
-			PBXWorkspaceStateSaveDate = 265410795;
+			PBXPerProjectTemplateStateSaveDate = 275483796;
+			PBXWorkspaceStateSaveDate = 275483796;
 		};
 		perUserProjectItems = {
-			C4ADF50B0FD1D8F500720AEF /* PBXTextBookmark */ = C4ADF50B0FD1D8F500720AEF /* PBXTextBookmark */;
-			C4ADF5100FD1D8F500720AEF /* PBXTextBookmark */ = C4ADF5100FD1D8F500720AEF /* PBXTextBookmark */;
+			C4A7D07B106B7BDB00080C23 /* PBXTextBookmark */ = C4A7D07B106B7BDB00080C23 /* PBXTextBookmark */;
+			C4C78057106B8D3700F5271F /* PBXTextBookmark */ = C4C78057106B8D3700F5271F /* PBXTextBookmark */;
+			C4C78079106B8E3600F5271F /* PBXTextBookmark */ = C4C78079106B8E3600F5271F /* PBXTextBookmark */;
+			C4C7807B106B8E3600F5271F /* PBXTextBookmark */ = C4C7807B106B8E3600F5271F /* PBXTextBookmark */;
+			C4C7807C106B8E3600F5271F /* PlistBookmark */ = C4C7807C106B8E3600F5271F /* PlistBookmark */;
+			C4C7807D106B8E3600F5271F /* PBXTextBookmark */ = C4C7807D106B8E3600F5271F /* PBXTextBookmark */;
+			C4C7807E106B8E3600F5271F /* PBXTextBookmark */ = C4C7807E106B8E3600F5271F /* PBXTextBookmark */;
+			C4C78089106B8E5400F5271F /* PBXTextBookmark */ = C4C78089106B8E5400F5271F /* PBXTextBookmark */;
+			C4C7808A106B8E5400F5271F /* PBXTextBookmark */ = C4C7808A106B8E5400F5271F /* PBXTextBookmark */;
+			C4C78095106B8E8200F5271F /* PBXTextBookmark */ = C4C78095106B8E8200F5271F /* PBXTextBookmark */;
+			C4C78099106B8E8B00F5271F /* PBXTextBookmark */ = C4C78099106B8E8B00F5271F /* PBXTextBookmark */;
+			C4F0744F106B862000BC04A3 /* PBXTextBookmark */ = C4F0744F106B862000BC04A3 /* PBXTextBookmark */;
+			C4F07479106B898000BC04A3 /* PBXTextBookmark */ = C4F07479106B898000BC04A3 /* PBXTextBookmark */;
+			C4F07497106B8BCC00BC04A3 /* PBXTextBookmark */ = C4F07497106B8BCC00BC04A3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C4E208570FD1390400D2ED31 /* Source Control */;
 		userBuildSettings = {
@@ -93,60 +107,178 @@
 	};
 	089C167EFE841241C02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 643}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
 			sepNavSelRange = "{45, 0}";
 			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
 	32DBCF630370AF2F00C91783 /* Nostalgy4MailApp_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {990, 421}}";
-			sepNavSelRange = "{154, 26}";
-			sepNavVisRange = "{0, 187}";
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
+			sepNavSelRange = "{154, 0}";
+			sepNavVisRange = "{0, 161}";
 		};
 	};
 	8D5B49AC048680CD000E48DA /* Nostalgy4MailApp */ = {
 		activeExec = 0;
 	};
+	8D5B49B7048680CD000E48DA /* English */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 594}, {750, 558}}";
+		};
+	};
 	C48D80210FD1AD420072A78D /* SearchPopup.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 643}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 675}";
 		};
 	};
 	C48D80220FD1AD420072A78D /* SearchPopup.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 2002}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1249}";
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1768}}";
+			sepNavSelRange = "{2679, 0}";
+			sepNavVisRange = "{2437, 460}";
 		};
 	};
-	C4ADF50B0FD1D8F500720AEF /* PBXTextBookmark */ = {
+	C4A7D07B106B7BDB00080C23 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C4E20AF20FD1510A00D2ED31 /* SearchManager.m */;
-		name = "SearchManager.m: 101";
+		name = "SearchManager.m: 90";
 		rLen = 0;
-		rLoc = 3433;
+		rLoc = 2912;
 		rType = 0;
-		vrLen = 635;
-		vrLoc = 3112;
+		vrLen = 2251;
+		vrLoc = 1972;
 	};
-	C4ADF5100FD1D8F500720AEF /* PBXTextBookmark */ = {
+	C4C7803D106B8C9000F5271F /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = /Users/fxtentacle/Library/Mail/Bundles/MsgFilerPlugIn.mailbundle/Contents/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
+			sepNavSelRange = "{45, 133}";
+			sepNavVisRange = "{0, 178}";
+		};
+	};
+	C4C78057106B8D3700F5271F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = C4E20AF20FD1510A00D2ED31 /* SearchManager.m */;
-		name = "SearchManager.m: 87";
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
 		rLen = 0;
-		rLoc = 2703;
+		rLoc = 45;
 		rType = 0;
-		vrLen = 1671;
-		vrLoc = 2546;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	C4C78079106B8E3600F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4C7807A106B8E3600F5271F /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	C4C7807A106B8E3600F5271F /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		name = InfoPlist.strings;
+		path = /Users/fxtentacle/Library/Mail/Bundles/Nostalgy4MailApp.mailbundle/Contents/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+	};
+	C4C7807B106B8E3600F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4C7803D106B8C9000F5271F /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 3";
+		rLen = 133;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	C4C7807C106B8E3600F5271F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* English */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Volumes/Important/Progra/nostalgy4mailapp/Nostalgy4MailApp/English.lproj/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C4C7807D106B8E3600F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C48D80210FD1AD420072A78D /* SearchPopup.h */;
+		name = "SearchPopup.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 0;
+	};
+	C4C7807E106B8E3600F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E208610FD13A0500D2ED31 /* BundleLoader.m */;
+		name = "BundleLoader.m: 9";
+		rLen = 13;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	C4C78089106B8E5400F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E20AF10FD1510A00D2ED31 /* SearchManager.h */;
+		name = "SearchManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	C4C7808A106B8E5400F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF630370AF2F00C91783 /* Nostalgy4MailApp_Prefix.pch */;
+		name = "Nostalgy4MailApp_Prefix.pch: 7";
+		rLen = 0;
+		rLoc = 154;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	C4C78095106B8E8200F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C48D80220FD1AD420072A78D /* SearchPopup.m */;
+		name = "SearchPopup.m: 92";
+		rLen = 0;
+		rLoc = 2679;
+		rType = 0;
+		vrLen = 2059;
+		vrLoc = 1726;
+	};
+	C4C78099106B8E8B00F5271F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E208610FD13A0500D2ED31 /* BundleLoader.m */;
+		name = "BundleLoader.m: 23";
+		rLen = 0;
+		rLoc = 342;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
 	};
 	C4E208570FD1390400D2ED31 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
 	C4E208580FD1390400D2ED31 /* Code sense */ = {
@@ -155,24 +287,76 @@
 	};
 	C4E208610FD13A0500D2ED31 /* BundleLoader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 643}}";
-			sepNavSelRange = "{232, 2}";
-			sepNavVisRange = "{0, 381}";
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
+			sepNavSelRange = "{342, 0}";
+			sepNavVisRange = "{0, 429}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
 	C4E20AF10FD1510A00D2ED31 /* SearchManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 643}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1571, 789}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 719}";
 		};
 	};
 	C4E20AF20FD1510A00D2ED31 /* SearchManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1386, 1792}}";
-			sepNavSelRange = "{2703, 0}";
-			sepNavVisRange = "{2546, 1671}";
-			sepNavWindowFrame = "{{15, 79}, {1584, 949}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1615, 1664}}";
+			sepNavSelRange = "{2912, 0}";
+			sepNavVisRange = "{1972, 2251}";
+			sepNavWindowFrame = "{{15, 91}, {1584, 949}}";
 		};
+	};
+	C4F0744F106B862000BC04A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4F07450106B862000BC04A3 /* MVMailBundle.h */;
+		name = "MVMailBundle.h: 15";
+		rLen = 14;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	C4F07450106B862000BC04A3 /* MVMailBundle.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MVMailBundle.h;
+		path = /Volumes/Important/Progra/nostalgy4mailapp/includes/MVMailBundle.h;
+		sourceTree = "<absolute>";
+	};
+	C4F07471106B882400BC04A3 /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = "/Volumes/MsgFiler 2.0.5/MsgFilerPlugIn.mailbundle/Contents/Resources/English.lproj/InfoPlist.strings";
+		sourceTree = "<absolute>";
+	};
+	C4F07479106B898000BC04A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4F07471106B882400BC04A3 /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	C4F07497106B8BCC00BC04A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4F07498106B8BCC00BC04A3 /* Localizable.strings */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 0;
+	};
+	C4F07498106B8BCC00BC04A3 /* Localizable.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = Localizable.strings;
+		path = /Users/fxtentacle/Library/Mail/Bundles/MsgFilerPlugIn.mailbundle/Contents/Resources/English.lproj/Localizable.strings;
+		sourceTree = "<absolute>";
 	};
 }

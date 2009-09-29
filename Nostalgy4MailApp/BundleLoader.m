@@ -9,7 +9,7 @@
 #include "SearchManager.h"
  
 
-@interface BundleLoader : MVMailBundle
+@interface BundleLoader : NSObject
 {
 }
 @end
@@ -19,6 +19,8 @@
 
 + (void)initialize;
 {
+	NSLog(@"### Nostalgy 4 Mail.app: bundle loader");
+
 	[NSBundle loadNibNamed: @"SearchManager" owner: [SearchManager alloc] ];
 }
 	
