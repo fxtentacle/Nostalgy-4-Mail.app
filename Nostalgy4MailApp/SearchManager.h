@@ -31,4 +31,7 @@
 - (void) setLastFolder: (NSString*) folder;
 - (NSString*) lastFolder;
 
+- (NSMenuItem*) dbgSubmenuMove;
+- (NSMenuItem*) dbgSubmenuCopy;
+
 @end

@@ -34,6 +34,7 @@
 
 - (void)invokeLastFolder:(NSMenu*) submenu {
 	if( [submenu numberOfItems] == 0 ) [[submenu delegate] menuNeedsUpdate: submenu ];
+	[submenu update];
 	
 	NSArray     *items = [submenu itemArray];
     for(int iI = 0; iI < [items count]; iI++){
@@ -123,5 +124,13 @@
 - (NSString*) lastFolder {
 	return lastFolder;
 }
+
+- (NSMenuItem*) dbgSubmenuMove {
+	return submenuMove;
+}
+- (NSMenuItem*) dbgSubmenuCopy{
+	return submenuCopy;
+}
+
 
 @end

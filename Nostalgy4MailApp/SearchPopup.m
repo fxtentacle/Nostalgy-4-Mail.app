@@ -21,11 +21,30 @@
 	[NSBundle loadNibNamed: @"SearchPopup" owner: new ];
 	
 	NSLog(@"SearchPopup: popupWithSubmenu: %@", submenu);
+	
 	return new;
 }
 
 - (void)showWithSender: sender andTitle: (NSString *)title {
-	if( [submenu numberOfItems] == 0 )  [[submenu delegate] menuNeedsUpdate: submenu ];
+
+	// update menu items
+	[[submenu delegate] menuNeedsUpdate: submenu ];
+	// set message handling to copy / move
+	[submenu _sendMenuOpeningNotification];
+	
+	if( FALSE ) {
+		NSPopUpButtonCell *popUpButtonCell = [[NSPopUpButtonCell alloc] initTextCell:@"" pullsDown:FALSE];
+		[popUpButtonCell setMenu:submenu];
+		[popUpButtonCell selectItem:nil];
+		[popUpButtonCell attachPopUpWithFrame:[searchWindow frame] inView: [searchWindow contentView]];	
+		
+		instrumentObjcMessageSends(YES);
+		[popUpButtonCell performClickWithFrame:[searchWindow frame] inView: [searchWindow contentView]];	
+		instrumentObjcMessageSends(NO);
+		
+		[popUpButtonCell dismissPopUp];	
+	}
+	
 	
 	if( [parent lastFolder] != nil ) {
 		[searchField setStringValue: [parent lastFolder]];
@@ -38,6 +57,8 @@
 
 - (IBAction)doSearch: sender
 {
+	[submenu update];
+	
 	NSString *searchString = [searchField stringValue];
 
 	while( [currentResults count] > 0 ) [currentResults removeLastObject];
